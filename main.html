@@ -1,0 +1,64 @@
+<link rel="stylesheet" href="main.css">
+
+<body>
+    <div><p id="image">backgorund image taken form: https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2</p></div>
+    <h1 id= "title">ADOPT A RESCUED PET</h1>
+    <p id= "description">If you are interested in adopting a rescued pet, please complete the following form.
+    </p>
+    
+    <form id= "survey-form" required>
+    <div class="div-class">
+      <p>Please enter your name.</p>
+      <label id="name-label">Name</label>
+      <input id= "name" type= "text" placeholder= "Please enter your name" required/>
+    </div>
+    
+    <div class="div-class">
+      <p>We want to contact you, please enter your email.</p>
+      <label id="email-label">Email</label>
+      <input id= "email" name= "email" type="email" placeholder= "Please enter your email"
+    required/>
+    </div>
+    
+    <div class="div-class">
+      <p>We must know your age to find your ideal pet!</p>
+      <label id= "number-label">Age</label>
+      <input id= "number" name= "age" type="number" placeholder= "Please enter your age" min="0" max="100"required/>
+    </div>
+    
+    <div class="div-class">
+      <p>¿What's your favorite pet?</p>
+      <select id= "dropdown">
+        <option disable selected>Select your favorite pet.</option>
+        <option value="pato">I love Dogs</option>
+        <option value="perro">I'm a cat person</option>
+        <option value="gato">I like ducks</option>
+        <option value="serpientes">Snakes are nice</option>
+        <option value="tortugas">Turtles are awesome</option>
+        <option value="hamster">I love the litlle hamsters</option>
+        <option value="other">other</option>
+    </select>
+    </div>
+    
+    <div class="div-class">
+      <p>¿How much time do you have for your pet?</p>
+      <input type= "radio" value="pato" name="pato"/> All day long!
+      <input type= "radio" value="Patoso" name="patoso"/> Four or Five hous.
+      <input type= "radio" value="pato" name="pato"/> Three hours. 
+      <input type= "radio" value="Patoso" name="patoso"/> One hour. 
+    </div>
+    
+    <div class="div-class">
+      <p>¿Do you have a backyard?</p>
+      <input type="checkbox" value="pato"/> Yeah!
+      <input type="checkbox" value="patoso"/> Nop!
+    </div>
+    
+    <div class="div-class">
+      <p>Tell as about yourself!</p>
+      <textarea id="text-area"></textarea>
+    </div class="div-class">
+    <button id="submit" type="submit">Let's do this!(sumbit)
+    </form>
+    
+    </body>
