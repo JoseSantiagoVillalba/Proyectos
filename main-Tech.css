@@ -1,0 +1,43 @@
+#navbar{
+    top:0;
+    left:0;
+    background-color: rgb(238, 236, 236);
+    float: left;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    line-height: 300%;
+    font-size: large;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+display: flex;
+flex-direction: column;
+}
+
+
+.main-section{
+    background-color: rgb(255, 255, 255);
+    margin-left: 250px;
+
+}
+#main-doc{
+    background-color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 1.2rem;
+}
+@media (max-height: 200px) { p{font-size: 10px}}
+
+header{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+ul{
+    font-size: 1.1rem;
+}
