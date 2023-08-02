@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=EB+Garamond:ital@0;1&family=Libre+Bodoni:ital@0;1&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Graramond', serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.first-port{
+    background-image: linear-gradient(rgb(21, 9, 9),rgb(74, 9, 9));
+    text-align: center;
+    padding: 20px;
+    flex: 70%;
+}
+
+.salute{
+    font-family: 'Cinzel', serif;
+    font-size: 6rem;
+    background-image: linear-gradient(to right, #ff2c2c, #ffd700);
+    background-clip: text; 
+color: transparent;
+    
+}
+
+.p1{
+    color: rgb(172, 188, 2);
+    font-size: 1.5rem;
+    min-width: 0.5vw;
+    position: relative;
+}
+.p1::after {
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 25%; 
+    width: 50%; 
+    height: 2px; 
+    background-color: rgb(172, 188, 2);; 
+    margin: 0 auto; 
+}
+
+.p2{
+    color: rgb(172, 188, 2);
+    font-size: 1.5rem;
+    min-width: 0.5vw;
+    max-height: 3vw;
+    position: relative;
+}
+.p2::after {
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 45%; 
+    width: 10%; 
+    height: 2px; 
+    background-color: rgb(172, 188, 2);; 
+    margin: 0 auto; 
+}
+
+button{
+    font-family: 'Graramond', serif;
+    font-size: 1.1rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    color: rgb(172, 188, 2);
+    border-color: rgb(172, 188, 2);
+    border-bottom-style: solid;
+    cursor: pointer;
+    margin-bottom: 2vw;
+    min-width: 20px;
+}
+.button1{
+        background-color: rgb(55, 9, 9);
+}
+.button2{
+        background-color: rgb(60, 9, 9);
+
+}
+.button3{
+    background-color: rgb(65, 9, 9);
+
+}
+
+.button4{
+    background-color: rgb(70, 9, 9);
+}
+
+
+button:hover{
+background-color: rgb(60, 3, 3);
+border-radius: 10%;
+
+}
+
+button:active{
+    background-color: rgb(68, 3, 3);
+    border-radius: 20%;
+    }
+
+    .contact{
+        background-image: linear-gradient(rgb(21, 9, 9),rgb(40, 9, 9));
+        text-align: left;
+        flex: 1;
+        padding: 15px;
+        
+    }
+    .contact-info{
+        margin-left: 50px;
+        color: aliceblue;
+
+    }
+
