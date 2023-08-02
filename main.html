@@ -1,70 +1,55 @@
-<link rel="stylesheet" href="main.css">
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
 </head>
 <body>
-  <div><p id="image">backgorund image taken form: https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2</p></div>
-    <h1 id= "title">ADOPT A RESCUED PET</h1>
-    <p id= "description">If you are interested in adopting a rescued pet, please complete the following form.</p>
-  
-  <form id= "survey-form" required>
-  <div class="div-class">
-    <p>Please enter your name.</p>
-    <label id="name-label">Name</label>
-    <input id= "name" type= "text" placeholder= "Please enter your name" required/>
-  </div>
-  
-  <div class="div-class">
-    <p>We want to contact you, please enter your email.</p>
-    <label id="email-label">Email</label>
-    <input id= "email" name= "email" type="email" placeholder= "Please enter your email"
-  required/>
-  </div>
-  
-  <div class="div-class">
-    <p>We must know your age to find your ideal pet!</p>
-    <label id= "number-label">Age</label>
-    <input id= "number" name= "age" type="number" placeholder= "Please enter your age" min="0" max="100"required/>
-  </div>
-  
-  <div class="div-class">
-    <p>¿What's your favorite pet?</p>
-    <select id= "dropdown">
-      <option disable selected>Select your favorite pet.</option>
-      <option value="perro">I love Dogs</option>
-      <option value="gato">I'm a cat person</option>
-      <option value="pato">I like ducks</option>
-      <option value="serpientes">Snakes are nice</option>
-      <option value="tortugas">Turtles are awesome</option>
-      <option value="hamster">I love the litlle hamsters</option>
-      <option value="other">other</option>
-  </select>
-  </div>
-  
-  <div class="div-class">
-    <p>¿How much time do you have for your pet?</p>
-    <input type= "radio" value="day" name="day"/> All day long!
-    <input type= "radio" value="5/4hr" name="5/4hr"/> Four or Five hous.
-    <input type= "radio" value="3hr" name="3hr"/> Three hours. 
-    <input type= "radio" value="1hr" name="1hr"/> One hour. 
-  </div>
-  
-  <div class="div-class">
-    <p>¿Do you have a backyard?</p>
-    <input type="checkbox" value="y"/> Yeah!
-    <input type="checkbox" value="n"/> Nop!
-  </div>
-  
-  <div class="div-class">
-    <p>Tell as about yourself!</p>
-    <textarea id="text-area"></textarea>
-  </div class="div-class">
-  <button id="submit" type="submit">Let's do this!(sumbit)
-  </form>
-  </body>
+    <div class="superdiv">
+        <div class="title">
+            <h1>AL PACINO</h1>
+        </div>
+    <div class="image">
+        <figure id="img-div">
+            <img
+            id="image"
+            src="https://img.europapress.es/fotoweb/fotonoticia_20200425083148_1200.jpg"
+            alt="Al pacino in his character, Tony Montana at ScarFace Movie"
+            />
+        </figure>
+    </div>
+    <div class="tribute-info">
+        <h4>Alfredo James Pacino was born April 25, 1940. Is an American actor. Considered one of the most influential actors of the 20th century.</h2>
+            <h3 class="titulo-premios">Here's the most important awards he won:</h3>
+            <li><u>Golden Globe Award</u></li>
+                <ul><strong>1993</strong> - Golden Globe Award for Best Actor in a Motion Picture – Drama. Serpico.</ul>
+            <li><u>Primetime Emmy Awards</u></li>
+                <ul><strong>2004</strong> - Primetime Emmy Award for Outstanding Lead Actor in a Limited Series or Television Movie. Angels in America.</ul>
+                <ul><strong>2010</strong> - Primetime Emmy Award for Outstanding Lead Actor in a Limited Series or Television Movie. You Don't Know Jack.</ul>
+            <li><u>Directors Guild Award</u></li>
+                <ul><strong>1997</strong> - Directors Guild Award for Outstanding Documentary Directorial Achievement. Looking for Richard.</ul>
+            <li><u>Academy Award</u></li>
+                <ul><strong>1993</strong> - Academy Award for Best Actor. Scent of a Woman.</ul>
+            <li><u>BAFTA Award</u></li>
+                <ul><strong>1976</strong> - BAFTA Award for Best Film Actor in a Leading Role. Dog Day Afternoon and The Godfather Part II.</ul>
+            <li><u>Screen Actors Guild Awards</u></li>
+                <ul><strong>2004</strong> - Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries or Television Movie. Angels in America.</ul>
+                <ul><strong>2011</strong> - Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries or Television Movie. You Don't Know Jack.</ul>
+            <li><u>Tony Awards</u></li>
+            <ul><strong>1969</strong> - Tony Award for Best Featured Actor in a Play. Does a Tiger Wear a Necktie?.</ul>
+            <ul><strong>1977</strong> - Tony Award for Best Leading Actor in a Play. The Basic Training of Pavlo Hummel.</ul>
+            <h5>
+                You can read more about the awards he won on this
+                <a
+                class="tribute-link"
+                href="https://en.wikipedia.org/wiki/List_of_awards_and_nominations_received_by_Al_Pacino"
+                target=_blank
+                >Wikipedia entry</a
+                >.
+            </h5>
+    </div>
+</div>
+</body>
 </html>
-
