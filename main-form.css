@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+
+}
+#title{
+    color: rgb(238, 208, 16);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#survey-form{
+    color: rgb(238, 208, 16);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#description{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(238, 208, 16);
+}
+
+p{
+    color: rgb(238, 208, 16);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.div-class{
+    width: 700px;
+    height: 100px;
+    background-color: rgba(81, 89, 1, 0.396);
+    margin:0 auto;
+    font-size: 20px;
+    border-radius: 10%;
+}
+#text-area{
+    width: 500px;
+    height: 50px;
+    border-radius: 20%;
+
+}
+#name{
+    width: 300px;
+    height: 30px;
+}
+#email{
+    width: 300px;
+    height: 30px;
+}
+#number{
+    width: 300px;
+    height: 30px;
+}
+#dropdown{
+    width: 300px;
+    height: 30px;
+}
+
+#submit{
+    font-size: 20px;
+}
+#image{
+    font-size: 10px;
+}
